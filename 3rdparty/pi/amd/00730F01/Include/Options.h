@@ -63,5 +63,6 @@ typedef struct {
   IMAGE_ENTRY         EntryPoint;                   ///< The corresponding entry point to call.
 } DISPATCH_TABLE;
 
+#define BLDCFG_IOMMU_SUPPORT TRUE
 
 #endif // _OPTIONS_H_

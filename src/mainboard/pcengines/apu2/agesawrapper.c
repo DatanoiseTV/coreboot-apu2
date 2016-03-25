@@ -374,7 +374,7 @@ AGESA_STATUS agesawrapper_amdinitenv(void)
 	printk(BIOS_DEBUG, "agesawrapper_amdinitenv returning from AmdCreateStruct\n");
 	EnvParam = (AMD_ENV_PARAMS *)AmdParamStruct.NewStructPtr;
 
-	EnvParam->GnbEnvConfiguration.IommuSupport = FALSE;
+	EnvParam->GnbEnvConfiguration.IommuSupport = TRUE;
 	EnvParam->FchInterface.FchPowerFail = 1;			// System powered by default
 
 	printk(BIOS_DEBUG, "agesawrapper_amdinitenv calling AGESA\n");

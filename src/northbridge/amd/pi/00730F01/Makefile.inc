@@ -20,6 +20,7 @@
 romstage-y += dimmSpd.c
 
 ramstage-y += northbridge.c
+ramstage-y += iommu.c
 
 romstage-y += eltannorthbridge.c
 ramstage-y += eltannorthbridge.c
